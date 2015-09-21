@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Start {
 	public static void main(String [] args) throws java.io.IOException{
 		String input="";
-		//char choice;
+		
 		Fruit fr1=new Fruit();
 		Vegetables ve1 = new Vegetables();
 		System.out.println(fr1.toString());
@@ -40,22 +40,11 @@ public class Start {
 			System.out.println("You'r choice is - Fruit");
 		}else {			
 			System.out.println("please, try again");
-		//System.exit(0);
+		
 			return;
 	}
 		}while(input==null);
 	     
-		//choice=(char)System.in.read();
-//	}while(choice<'1'||choice >'2');
-//	switch(choice){
-//	case '1':
-//		System.out.println("You'r choice is - Fruit");
-//		break;
-//	case '2':
-//		System.out.println("You'r choice is - Vegetables");
-//		break;
-				
-	//		}
 	
 	System.out.println("Please enter the name");
 	String s1=scan.next();
